@@ -1,0 +1,13 @@
+{
+  "name": "php-aws-lambda",
+  "version": "1.0.0",
+  "description": "PHP image container on AWS Lambda",
+  "scripts": {
+    "deploy": "sls deploy"
+  },
+  "author": "Key Hui",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^3.28.1"
+  }
+}

@@ -1,0 +1,16 @@
+service: php-aws-lambda
+
+provider:
+  name: aws
+  region: us-east-1
+  ecr:
+    images:
+      hello-world:
+        path: ./
+
+functions:
+  hello:
+    image:
+      name: hello-world
+    events:
+      - httpApi: "*"
