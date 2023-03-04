@@ -1,11 +1,5 @@
 # PHP AWS Lambda
 
-## Setup
-
-```
-composer require bref/bref
-```
-
 ## Getting Started
 
 ```
@@ -22,5 +16,5 @@ npm run deploy
 ## Log
 
 ```
-sls logs -f hello
+npm run logs
 ```

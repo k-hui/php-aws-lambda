@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "PHP image container on AWS Lambda",
   "scripts": {
-    "deploy": "sls deploy"
+    "deploy": "sls deploy",
+    "logs": "sls logs -f hello"
   },
   "author": "Key Hui",
   "license": "MIT",
